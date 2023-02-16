@@ -232,7 +232,9 @@ body.dark-theme {
     background-color: var(--container-color);
     box-shadow: 0 8px 24px hsl(228, 66%, 45%, 0.15);
     width: 90%;
-    right: 0 auto;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
     padding: 1.3rem 3rem;
     border-radius: 1.25rem;
     transition: 0.4s;
@@ -818,7 +820,18 @@ body.dark-theme {
   }
 }
 /* For medium devices */
-
+@media screen and (min-width: 576px) {
+  .nav__menu {
+    width: 342px;
+  }
+  .home__search {
+    width: 412px;
+  }
+  .contact__card {
+    grid-template-columns: repeat(2, 192px);
+    justify-content: center;
+  }
+}
 /* For large devices */
 
 /* For 2K & 4K resolutions */ ;
