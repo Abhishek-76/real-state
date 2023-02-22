@@ -1007,6 +1007,9 @@ body.dark-theme {
   .contact__card-box {
     padding: 28px 1.5rem 1.5rem;
   }
+  .subscribe {
+    padding: 2.5rem;
+  }
   .subscribe__container {
     padding: 4rem 10rem 4.5rem;
     border-radius: 2rem;
